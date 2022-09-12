@@ -22,8 +22,8 @@ export default function UserList() {
       useEffect(()=>{
         dispatch(UserList_Action('https://jsonplaceholder.typicode.com/users'))
       }, [dispatch])
-console.log(userList);
-  return (
+
+      return (
     <Container maxWidth="lg" className={classes.container}>   
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 6, md: 8 }}>

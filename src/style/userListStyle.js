@@ -30,21 +30,19 @@ export const useStyles = makeStyles({
         marginTop: '5%'
     },
     iconDiv:{
-        width: '250px',
+        height: '40px',
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-evenly'
     },
     icon:{
-        width: '36% !important',
-        padding: '10px 0',
         color: 'grey'
     },
     website:{
         paddingBottom: '10%'
     },
     heartIcon:{
-        width: '36% !important',
-        padding: '10px 0',
         color: '#e91e63'
     }
 })
