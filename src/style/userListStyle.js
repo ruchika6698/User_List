@@ -26,25 +26,8 @@ export const useStyles = makeStyles({
         paddingTop: '5px',
         fontSize: '12px'
     },
-    input:{
-        width: '30px',
-        height: '25px',
-        padding: '5px'
-    },
-    placeOrder:{
-        marginTop: '5px !important',
-        backgroundColor: '#005d83 !important',
-        color: '#ffffff !important',
-        cursor: 'pointer !important'
-    },
-    appBar:{
-        backgroundColor: '#005d83 !important'
-    },
     container:{
         marginTop: '5%'
-    },
-    containerPlaceOrder:{
-        marginTop: '3%'
     },
     iconDiv:{
         width: '250px',
